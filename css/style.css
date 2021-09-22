@@ -1,0 +1,84 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  color: #201b2d;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+header {
+  background: rgb(77, 189, 253);
+}
+img {
+  width: 200px;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1,
+.intro {
+  margin: 20px;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+h1 {
+  font-size: 40px;
+}
+p {
+  font-size: 20px;
+}
+.list {
+  display: flex;
+  background-color: rgb(233, 230, 51);
+  line-height: 40px;
+  list-style: none;
+  margin: 0;
+}
+li {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, bold;
+  font-size: 15px;
+  width: 20%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-family: "montserrat black";
+  cursor: pointer;
+}
+a:hover {
+  font-size: 120%;
+}
+.report {
+  text-decoration: none;
+  font-family: "Ubuntu", sans-serif;
+  color: #201b2d;
+  font-size: 20px;
+}
+.applications {
+  display: flex;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 15px;
+}
+.icon {
+  height: 100px;
+  width: 100px;
+}
+.application {
+  width: 25%;
+}
+#description {
+  background-color: rgb(233, 230, 51);
+  padding: 10px;
+  text-align: justify;
+}
