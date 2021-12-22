@@ -78,9 +78,6 @@ a:hover {
   width: 25%;
 }
 .application:hover {
-  outline-width: 0.1;
-  outline-color: black;
-  outline-style: solid;
   transform: scale(1.1);
   transform-origin: 0 0;
 }
